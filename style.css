@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #8FB4E8;
+}
+
+
+.card
+{
+    margin: auto;
+    margin-top: 25vh;
+    border-radius: 2%;
+    background-color: white;
+        width: 30vw;
+        height: 50vh;
+}
+h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+
+
+form  input{
+    position: relative;
+    margin-left: 15%; 
+    margin-right: 156156156%; /*POURQUOI?*/ /*POURQUOI?*/ /*POURQUOI?*/ /*POURQUOI?*/ /*POURQUOI?*/  /*J'ai du passer par relative et right: */
+    padding-top: 25px;
+    width: 75%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    right:10px; /*J'ai du passer par relative et right: */
+    
+    
+    
+}
+
+input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    color:black;
+    
+
+    
+}
+
+
+
+
+.lgnbtn{
+   
+    margin: 2em 4.2em;
+    padding: 15px 100px;
+    background-color:#e9e9ed;
+    border: 1px solid black;
+    box-shadow: 0px 0px 0px black;
+    
+    
+    
+}
+
+
+
+.lgnbtn:hover{
+    
+    background-color:#8BC6EC;
+    transition: .5s;
+    
+}
+
+.pcw{
+    color:black;
+}
+
+
+.problem {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+   
+    text-align: center;
+  
+   
+    
+}
+
+.problem a {
+    color:rgb(100, 187, 222);
+    text-decoration: none;
+    
+}
+
+
+
+.problem p {
+    display: inline;
+}
+
+.fgt{
+    display: inline-block;
+}
